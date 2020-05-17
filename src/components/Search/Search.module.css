@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.search{
+    width: 20rem !important;
+}
+button{
+height: 3rem !important;
+/* background-color: rgb(255, 123, 0) !important; */
+margin-left: 1rem !important;
+}
+form{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+@media only screen and (max-width: 600px) {
+form{
+    justify-content: space-evenly !important;
+}
+button{
+    margin-left: 0 !important;
+}
+}
