@@ -1,5 +1,7 @@
 .card{
     margin: 1rem 2rem !important;
+    width: 24rem !important;
+    height: 24rem !important;
 }
 .image{
     height: 12rem !important;

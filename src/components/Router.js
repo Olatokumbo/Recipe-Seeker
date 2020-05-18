@@ -8,9 +8,6 @@ const Router = () => (
     <Route exact path="/"
     component={App}
     />
-    <Route exact path="/recipe/:id" 
-    component={Recipe}
-    />
     <Route 
     render={()=> (<h1>Page Not Found</h1>)}
     />
